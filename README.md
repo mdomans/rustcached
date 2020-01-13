@@ -1,5 +1,9 @@
 A memcached-compatible clone written in rust
 
+Forked from ketralnis, the objective is to have a foundation for adding LFU eviction schema as option to memcache-protocol compatible multithreaded server. Other eviction schemas _may_ be coming.
+
+LFU implementation paper: https://github.com/papers-we-love/papers-we-love/blob/master/caching/a-constant-algorithm-for-implementing-the-lfu-cache-eviction-scheme.pdf
+
 # Features:
 
 * Aside from what's listed in Missing below, we support all memcached commands and are fully compatible
